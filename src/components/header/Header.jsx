@@ -17,11 +17,12 @@ export default function Header({ onNewInvoice, onFilterChange, activeFilters, in
     <div className="header-container">
       <div className="left-header">
         <h1 className="lg-font">Invoices</h1>
-        <p className="p-font">
-            There {invoice.length === 1 ? "is" : "are"}{" "}
-            {invoice.length}{" "} total {" "}
-            {invoice.length === 1 ? "invoice" : "invoices"}
-        </p>
+            <p className="p-font">
+            {invoice.length === 0
+                ? "No invoices"
+                : `There ${invoice.length === 1 ? "is" : "are"} ${invoice.length} total ${invoice.length === 1 ? "invoice" : "invoices"}`
+            }
+            </p>
       </div>
       <div className="right-header">
         <div className="header-filter">
