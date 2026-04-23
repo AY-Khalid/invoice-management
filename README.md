@@ -134,6 +134,6 @@ The app is fully responsive across three breakpoints:
 
 ## Acknowledgements
 
-- UI design inspired by the [Frontend Mentor Invoice App challenge](https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl)
+- UI design inspired by the [HNG 2026 Invoice App challenge](https://www.figma.com/proto/e3MtRefbZw41Ts897CQF4N/invoice-app?node-id=0-8890&t=JKsaURj1xwY30183-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
 - Icons by [Font Awesome](https://fontawesome.com/)
 - AI assistance (responsiveness) by [Claude – Anthropic](https://claude.ai)
