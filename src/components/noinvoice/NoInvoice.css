@@ -11,6 +11,7 @@
 }
 .noinvoice-container h2{
     margin-bottom: 20px;
+    color: var(--dark);
 }
 .noinvoice-container p{
     font-weight: 500;

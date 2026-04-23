@@ -10,6 +10,11 @@ button{
     outline: none;
     cursor: pointer;
 }
+
+button:hover{
+    opacity: 0.8;
+}
+
 .round-plus{
     display: flex;
     flex-direction: column;
