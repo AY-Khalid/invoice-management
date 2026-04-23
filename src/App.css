@@ -1,0 +1,153 @@
+
+.main-container{
+display: flex;
+position: relative;
+}
+.aside-container{
+  background-color: var(--dark-grey);
+  width: 100px;
+  height: 100vh;
+  position: fixed;
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 auto;
+  z-index: 4;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.profile-img{
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  margin-left: 24%;
+  margin-bottom: 20px;
+}
+.aside-bottom{
+  width: 100%;
+  /* padding: 20px; */
+}
+.aside-bottom i{
+  margin-bottom: 40px;
+  cursor: pointer;
+  margin-left: 32%;
+}
+.aside-bottom .fa-moon, .aside-bottom .fa-circle{
+  /* display: none; */
+color: var(--sky-blue);
+font-size: 24px;
+}
+.aside-bottom .fa-circle{
+  display: none;
+}
+.aside-bottom hr{
+  margin-bottom: 20px;
+  width: 100%;
+  left: 0;
+  bottom: 60px;
+  border: 1px solid #84848423;
+}
+
+.invoice-container{
+  padding: 20px;
+  /* background-color: red; */
+  width: 70%;
+  margin: 40px 10% 40px 28% ;
+  /* height: 1000px; */
+  position: relative;
+}
+
+
+
+/* ===== TABLET (421px - 1024px) ===== */
+@media (min-width: 421px) and (max-width: 1024px) {
+  .aside-container {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0px 0px 20px 20px;
+    flex-direction: row;
+    padding: 0 20px;
+    z-index: 4;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .aside-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: auto;
+  }
+
+  .aside-bottom i {
+    margin: 0;
+  }
+
+  .aside-bottom hr {
+    display: none;
+  }
+
+  .profile-img {
+    margin: 0;
+  }
+
+  .invoice-container {
+    width: 90%;
+    margin: 100px auto 40px auto;
+  }
+}
+
+/* ===== MOBILE (max-width: 420px) ===== */
+@media (max-width: 420px) {
+  .aside-container {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0px;
+    flex-direction: row;
+    padding: 0 16px;
+    z-index: 4;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .aside-bottom {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: auto;
+  }
+
+  .aside-bottom i {
+    margin: 0;
+  }
+
+  .aside-bottom hr {
+    display: none;
+  }
+
+  .profile-img {
+    margin: 0;
+  }
+
+  .invoice-container {
+    width: 100%;
+    margin: 80px auto 40px auto;
+    padding: 16px;
+  }
+}

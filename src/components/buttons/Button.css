@@ -1,0 +1,74 @@
+button{
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.round-plus{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        background-color: var(--white) !important;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+.round-plus i {
+    color: var(--light-purple) !important;
+    font-size: 14px;
+}
+
+.purple-btn {
+    background-color: var(--light-purple);
+    padding: 8px 14px;
+    color: var(--white);
+}
+
+/* .purple-btn i {
+
+   font-size: 24px;
+} */
+
+.danger-btn{
+    background-color: var(--danger);
+        padding: 14px;
+        color: var(--white);
+}
+.danger-btn i{
+        background-color: var(--white);
+            color: var(--danger);
+            padding: 8px;
+}
+.grey-btn{
+             background-color: var(--bg-grey);
+            padding: 14px;
+            color: var(--sky-blue);
+}
+
+.grey-btn i{
+            background-color: var(--white);
+            color: var(--bg-light);
+            padding: 8px;        
+}
+.grey100{
+    background-color: var(--bg-grey);
+    padding: 20px;
+    color: var(--sky-blue);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.dark-btn{
+    background-color: var(--dark-grey);
+    color: var(--sky-blue);
+    padding: 20px;
+}
